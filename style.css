@@ -1,0 +1,12 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Avenir;
+}
+
+h1 {
+	text-align: center;
+	font-weight: 900;
+	border: 10px black solid;
+}

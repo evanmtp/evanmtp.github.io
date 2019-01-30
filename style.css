@@ -13,7 +13,8 @@ h1 {
 	display: inline-block;
 	text-align: center;
 	font-weight: 900;
-
+	white-space: nowrap;
+	font-size: calc(1.2em + 1.5vw);
 }
 
 pre {

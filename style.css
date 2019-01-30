@@ -11,19 +11,8 @@ h1 {
 	border: 10px black solid;
 }
 
-#text-art {
-	font-family: monospace;
-	border: 1px red dashed;
-	margin: 0 auto;
-	border: 1px red dashed;
-}
-/*
-#text-art-inner {
-	display: inline-block;
-}*/
-
 pre {
 	font-family: monospace;
-	font-size: 2vw;
+	font-size: 5vw;
 	text-align: center;
 }

@@ -6,9 +6,13 @@
 }
 
 h1 {
+	display: inline-block;
+	width: 100%;
 	text-align: center;
 	font-weight: 900;
 	border: 10px black solid;
+	border: 1px red dashed;
+
 }
 
 pre {

@@ -5,7 +5,7 @@
 	font-family: Avenir;
 }
 
-#page-header {
+/*#page-header {
 	border: 10px black solid;
 	text-align: center;
 	position: sticky;
@@ -18,10 +18,27 @@ h1 {
 	font-weight: 900;
 	white-space: nowrap;
 	font-size: calc(1.2em + 1.5vw);
+	background-color: #FFF;
+}*/
+
+#dots-group {
+	font-size: 3vw;
+	line-height:80%;
+	width: 100%;
 }
 
-pre {
-	font-family: monospace;
-	font-size: 3vw;
+#dots-1 {
+	transform: rotate(1deg);
+	position: fixed;
 	text-align: center;
+	width: 100%;
+	
+}
+
+#dots-2 {
+	transform: rotate(-1deg);
+	position: fixed;
+	text-align: center;
+	width: 100%;
+	
 }

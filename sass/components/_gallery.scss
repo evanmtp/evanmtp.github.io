@@ -1,0 +1,14 @@
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+	@include respond-to('medium') {
+        grid-template-columns:repeat(auto-fit, minmax(320px, 1fr));    
+    }
+    margin-bottom: 1em;
+}
+
+.gallery-2col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.2em;
+}

@@ -1,0 +1,61 @@
+@charset "UTF-8";
+//
+// 1. Configuration and helpers
+@import
+  'abstracts/variables',
+  'abstracts/functions',
+  'abstracts/mixins';
+
+// 2. Vendors
+@import
+  'vendors/normalize';
+
+// 3. Base stuff
+@import
+  'base/base',
+  'base/fonts',
+  'base/typography',
+  'base/helpers';
+
+// 4. Layout-related sections
+@import
+  'layout/container',
+  'layout/exhibition_grid',
+  'layout/footer',
+  'layout/header',
+  'layout/projects',
+  'layout/project_grid',
+  'layout/project_section';
+
+// 5. Components
+@import
+  'components/artist_name',
+  'components/artist_name_frontpage',
+  'components/cca_logo',
+  'components/credits',
+  'components/exhibitions',
+  'components/gallery',
+  'components/github_logo',
+  'components/grid_about',
+  'components/grid_empty_cell',
+  'components/headshot',
+  'components/image_credit',
+  'components/nav',
+  'components/project_category',
+  'components/project_frontpage',
+  'components/project_image',
+  'components/project_heading',
+  'components/project_main_image',
+  'components/project_title',
+  'components/video_resize',
+  'components/video_container',
+  'components/site_logo',
+  'components/thumbnail';
+
+// 6. Page-specific styles
+@import
+  'pages/home';
+
+// 7. Themes
+@import
+  'themes/default';

@@ -649,14 +649,13 @@ nav > .menu > li {
 
 .grid-about {
   display: grid;
-  grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr;
-  grid-gap: 35px;
 }
 @media (min-width: 768px) {
   .grid-about {
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr;
+    grid-gap: 35px;
   }
 }
 

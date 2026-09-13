@@ -406,10 +406,6 @@ pre {
   max-width: 700px;
 }
 
-footer {
-  height: 1em;
-}
-
 /*********************************************/
 /* menu                                      */
 /*********************************************/
@@ -461,6 +457,10 @@ nav > .menu > li {
     margin-right: 0px;
     margin-top: 0px;
   }
+}
+
+main {
+  padding-bottom: 1em;
 }
 
 .project-grid {

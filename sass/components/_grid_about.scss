@@ -1,3 +1,5 @@
+@use '../abstracts' as *;
+
 .grid-about {
     display: grid;
     grid-template-columns: 1fr;

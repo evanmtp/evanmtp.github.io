@@ -1,47 +1,36 @@
-@charset "UTF-8";
-//
-// 1. Configuration and helpers
-@import
-  'abstracts/variables',
-  'abstracts/mixins';
+// 1. Vendors
+@use 'vendors/normalize';
 
-// 2. Vendors
-@import
-  'vendors/normalize';
+// 2. Base stuff
+@use 'base/base';
+@use 'base/typography';
 
-// 3. Base stuff
-@import
-  'base/base',
-  'base/typography';
+// 3. Layout-related sections
+@use 'layout/container';
+@use 'layout/exhibition_grid';
+@use 'layout/header';
+@use 'layout/main';
+@use 'layout/project_grid';
+@use 'layout/project_section';
 
-// 4. Layout-related sections
-@import
-  'layout/container',
-  'layout/exhibition_grid',
-  'layout/header',
-  'layout/main',
-  'layout/project_grid',
-  'layout/project_section';
-
-// 5. Components
-@import
-  'components/artist_name',
-  'components/artist_name_frontpage',
-  'components/cca_logo',
-  'components/credits',
-  'components/exhibitions',
-  'components/gallery',
-  'components/github_logo',
-  'components/grid_about',
-  'components/headshot',
-  'components/image_credit',
-  'components/project_category',
-  'components/project_frontpage',
-  'components/project_image',
-  'components/project_heading',
-  'components/project_main_image',
-  'components/project_title',
-  'components/video_resize',
-  'components/video_container',
-  'components/site_logo',
-  'components/thumbnail';
+// 4. Components
+@use 'components/artist_name';
+@use 'components/artist_name_frontpage';
+@use 'components/cca_logo';
+@use 'components/credits';
+@use 'components/exhibitions';
+@use 'components/gallery';
+@use 'components/github_logo';
+@use 'components/grid_about';
+@use 'components/headshot';
+@use 'components/image_credit';
+@use 'components/project_category';
+@use 'components/project_frontpage';
+@use 'components/project_image';
+@use 'components/project_heading';
+@use 'components/project_main_image';
+@use 'components/project_title';
+@use 'components/video_resize';
+@use 'components/video_container';
+@use 'components/site_logo';
+@use 'components/thumbnail';

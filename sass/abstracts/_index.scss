@@ -1,0 +1,6 @@
+// -----------------------------------------------------------------------------
+// Forwards all abstracts, so a partial can load them with a single @use.
+// -----------------------------------------------------------------------------
+
+@forward 'variables';
+@forward 'mixins';

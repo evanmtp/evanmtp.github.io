@@ -3,7 +3,21 @@
  */
 body {
   color: $text-color;
-  font: normal 20px $text-font-stack;
+  font: 300 20px $text-font-stack;
+}
+
+/**
+ * Headings and bold text use Montserrat Medium
+ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+b {
+  font-weight: 500;
 }
 
 /**

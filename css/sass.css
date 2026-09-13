@@ -333,7 +333,7 @@ html {
  */
 a {
   text-decoration: underline;
-  font-weight: 100;
+  font-weight: 300;
   color: rgb(34, 34, 34);
 }
 
@@ -368,7 +368,21 @@ h3 {
  */
 body {
   color: rgb(34, 34, 34);
-  font: normal 20px "Montserrat", sans-serif;
+  font: 300 20px "Montserrat", sans-serif;
+}
+
+/**
+ * Headings and bold text use Montserrat Medium
+ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+b {
+  font-weight: 500;
 }
 
 /**
@@ -575,7 +589,7 @@ main {
 .project-heading {
   margin-top: 1em;
   margin-bottom: 1em;
-  font-weight: 900;
+  font-weight: 500;
 }
 
 .project-main-image {
@@ -585,7 +599,6 @@ main {
 .project-title {
   margin: 0;
   font-size: 2em;
-  font-weight: 900;
   text-transform: uppercase;
 }
 

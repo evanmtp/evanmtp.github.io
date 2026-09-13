@@ -3,8 +3,6 @@
  */
 body {
   color: $text-color;
-  font-weight: 300;
-  font-size: 0.2em;
   font: normal 20px $text-font-stack;
 }
 
@@ -20,8 +18,4 @@ pre {
 
 .header a {
   text-decoration: none;
-}
-
-body.work-bg {
-  color: $work-text-color;
 }

@@ -5,8 +5,6 @@
     justify-items: stretch;
     gap: 35px;
     @include respond-to ('medium') {
-        // grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-
         grid-template-columns: 1fr 1fr 1fr;
     }
 }

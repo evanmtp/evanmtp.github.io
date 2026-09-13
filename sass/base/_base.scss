@@ -27,14 +27,9 @@ html {
  * Basic styles for links
  */
 a {
-  // color: $brand-color;
   text-decoration: underline;
   font-weight: 100;
   color: $text-color;
-  // @include on-event {
-  //   // color: $text-color;
-  //   text-decoration: none;
-  // }
 }
 
 a:hover {
@@ -53,12 +48,9 @@ p {
 
 li {
   list-style: none;
-  opacity: 1;
 }
 
 body {
-  // height: 100vh;
-  // margin: 2% 5%;
   background-color: #fff;
 }
 

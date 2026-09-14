@@ -1,15 +1,16 @@
 	<header class="header">
-		<h1 class="site-logo"><a href="./index.html">Evan Montpellier</a></h1>
+		{%- if page.title %}{% assign logo_tag = "div" %}{% else %}{% assign logo_tag = "h1" %}{% endif %}
+		<{{ logo_tag }} class="site-logo"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></{{ logo_tag }}>
 		<nav>
 			<ul class="menu">
 				<li class="nav-item">
-					<a href="./index.html">projects</a>
+					<a href="{{ '/' | relative_url }}">projects</a>
 				</li>
 				<li class="nav-item">
-					<a href="./about.html">about</a>
+					<a href="{{ '/about.html' | relative_url }}">about</a>
 				</li>
 				<li class="nav-item">
-					<a href="https://github.com/evanmtp"><img src="./img/logos/github-mark.svg" alt="GitHub" class="github-logo"></a>
+					<a href="https://github.com/evanmtp"><img src="{{ '/img/logos/github-mark.svg' | relative_url }}" alt="GitHub" class="github-logo"></a>
 				</li>
 			</ul>
 		</nav>

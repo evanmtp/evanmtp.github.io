@@ -1,6 +1,11 @@
 # Built by GitHub Pages (Jekyll).
 # Every page uses _layouts/default.html, which holds the <head> and site header.
-# Front matter on each page sets its title, description, and whether it loads the lightbox.
+# Front matter on each page sets its title, description, preview image, and whether it loads the lightbox.
+
+title: Evan Montpellier
+url: "https://evanmontpellier.net"
+# Set explicitly: otherwise the GitHub metadata plugin may infer a baseurl.
+baseurl: ""
 
 defaults:
   - scope:

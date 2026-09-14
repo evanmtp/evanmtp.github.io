@@ -441,11 +441,6 @@ pre {
   }
 }
 
-h1 {
-  display: inline-block;
-  font-size: 1em;
-}
-
 /* menu - navbar */
 .menu {
   width: 100%;
@@ -635,8 +630,11 @@ main {
   margin-bottom: 1em;
 }
 
+/* Matches what the site name had as an h1: it is only an h1 on the home page. */
 .site-logo {
+  display: inline-block;
   font-size: 1em;
+  font-weight: 500;
   text-transform: uppercase;
 }
 

@@ -1,0 +1,82 @@
+---
+title: "SIGN/e"
+description: "SIGN/e is a Max for Live plug-in for creating and performing animated graphic scores in Ableton Live. Evan Montpellier is a computer artist based in Tiohtià:ke / Mooniyang / Montréal."
+lightbox: true
+image: /img/project_thumbs/signe_thumb.jpg
+image_alt: "White, blue and yellow geometric shapes on black, from a graphic score made with SIGN/e."
+---
+	<div class="container">
+		<div class="project-section project-heading">
+			<h1 class="project-title">SIGN/e</h1>
+			<div class="artist-name"><a href="https://lfo-lab.ca/">Laboratoire formes•ondes</a></div>
+			<div><a href="https://github.com/LFO-lab/SIGNe">Project link</a></div>
+		</div>
+		<div class="project-section project-main-video">
+			<div>
+				<img src="./img/signe/signe_score.png" alt="A SIGN/e score in Ableton Live: white, blue and yellow triangles, lines and circles on a black background, beside Live's browser and a list of symbol tracks." class="project-main-image">
+			</div>
+			<div class="image-credit">Score by Alexandre Sasset-Blouin</div>
+		</div>
+		<div class="project-section description">
+			<p>SIGN/e (Symbol-based Interface for Graphic Notation Edition) is a free Max for Live plug-in for creating and performing animated graphic scores in Ableton Live. It combines the precision of traditional composition with the spontaneity and dynamism of improvisational and generative music practices.</p>
+			
+			<p>Composers place symbols and text on a scrolling score. Each object's parameters (position, size, colour and pattern) may then be manipulated via Live's automation curves and modulation sources as well as live input from hardware or software controllers. Symbols can send MIDI notes as the playhead reaches them, allowing the score to trigger sound generation. SIGN/e is designed to facilitate mixed performances that combine automated sound generation with live electronic and/or acoustic instrumentation.</p>
+
+			<p>SIGN/e was developed by the Laboratoire formes•ondes at the Université de Montréal as part of the research-creation project <a href="https://lfo-lab.ca/notation-performative-en">Performative Notation</a>, and version 1.0 was released in May 2026.</p>
+		</div>
+
+		<div class="project-section role">
+			<h3>Role</h3>
+			<p>Under the direction of Nicolas Bernier, I programmed SIGN/e, building on my earlier work on <a href="./gsr.html">Graphic Score Reader</a>. Each symbol is its own device in Live, so its parameters can be automated like those of any instrument or effect. The score is drawn in Jitter using GPU instancing and custom GLSL shaders so that many animated symbols can be shown at once.</p>
+		</div>
+
+		<div class="project-section tools">
+			<h3>Tools</h3>
+			<p>Max, Jitter, GLSL, JavaScript</p>
+		</div>
+
+		<div class="project-section credits">
+			<h3>Credits</h3>
+			<div><strong>Direction</strong></div>
+			<div>Nicolas Bernier</div>
+			<div><strong>Programming</strong></div>
+			<div>Evan Montpellier</div>
+			<div><strong>Product lead</strong></div>
+			<div>Pierre-Luc Lecours</div>
+			<div><strong>Communications and development</strong></div>
+			<div>Alexandre Sasset-Blouin</div>
+			<div><strong>Logo</strong></div>
+			<div>Rutger Zuydervelt</div>
+			<div><strong>Support</strong></div>
+			<div>Fonds de recherche du Québec – Société et culture</div>
+		</div>
+
+		<div class="project-section media-gallery">
+			<div class="video-container">
+				<div class="video-resize video-aspect-16-9">
+					<iframe src="https://www.youtube.com/embed/vKb5_8wRGYs" title="SIGN/e v1 release video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</div>
+				<div class="image-credit">Video by the Faculté de musique, Université de Montréal</div>
+			</div>
+			<div class="video-container">
+				<div class="video-resize video-aspect-16-9">
+					<iframe src="https://www.youtube.com/embed/LqClFyUJaw0" title="SIGN/e introduction tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</div>
+				<div class="image-credit">Video by the Faculté de musique, Université de Montréal</div>
+			</div>
+			<div class="gallery-2col">
+				<a href="./img/signe/signe_01.png"><img src="./img/signe/signe_01.png" alt="The SIGNe-Screen device in Live, with the SIGN/e logo and Floating, Retrieve and Settings buttons." class="thumbnail"></a>
+				<a href="./img/signe/signe_02.png"><img src="./img/signe/signe_02.png" alt="A symbol's Properties window, with sections for choosing its symbol and pattern, MIDI trigger settings, and snap-to-grid divisions." class="thumbnail"></a>
+				<a href="./img/signe/signe_03.png"><img src="./img/signe/signe_03.png" alt="The SIGNe-Symbol device, with a preview of a white circle and dials for position, transform and repetition, plus navigation buttons." class="thumbnail"></a>
+				<a href="./img/signe/signe_04.png"><img src="./img/signe/signe_04.png" alt="The SIGNe-Text device, with a text field, alignment and font menus, and dials for position, scale, transform and repetition." class="thumbnail"></a>
+				<a href="./img/signe/signe_05.png"><img src="./img/signe/signe_05.png" alt="The SIGNe-Background device, with controls for loading an image, its offset and duration, tempo priority, scroll method, opacity and layer." class="thumbnail"></a>
+				<a href="./img/signe/signe_06.png"><img src="./img/signe/signe_06.png" alt="The Display tab of the score settings, with controls for the background, grid, time ruler, playhead, note pulse, bounds and overlay." class="thumbnail"></a>
+			</div>
+			<script>
+				document.addEventListener('DOMContentLoaded', () => {
+					new SimpleLightbox('.gallery-2col a', { scrollZoom: false, disableScroll: true, showCounter: false });
+				});
+			</script>
+			<div class="image-credit">Images from the SIGN/e user manual</div>
+		</div>
+	</div>
